@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+
+
+hr {
+	border:0;
+	background:#dedede;
+	height:1px;
+}		
+header .judul{
+	font-size: 25pt;
+}
+
+header .deskripsi{
+	font-size: 13pt;
+}
+.navigasi {
+    width:935px;
+    margin:25px auto;
+}
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding:0;
+	width: 650px;
+    margin:0 0 0;
+    
+	background: #0a0d0e;
+	
+}
+
+nav.menu ul li {
+	margin:0;
+	float:left;
+}
+
+nav.menu ul a {
+    margin-left:38px;
+	padding:21px;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	color:rgb(5, 5, 5);
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:#91a093;
+}
+
+main {
+    display: flex;
+
+}
+.logo,
+.navigasi,
+.konten,
+.sidebar,
+.footer {
+    margin-bottom: 5px;
+    padding: 15px 0;
+}
+.logo {
+    width:100%;
+    height:auto;
+    text-align: center ;
+}
+
+
+.sidebar {
+	float:right;
+    width:285px;
+    margin : -35px;
+}
+
+.sidebar .widget {
+	padding:25px;
+	margin:0 0 25px;
+	background:#fff;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+}
+
+.sidebar .widget:hover {
+	border-bottom: 2px solid #000000;
+}
+
+.sidebar .widget h2 {
+	padding:0;
+	margin:0 0 15px;
+	color:#515455;
+	font-size: 18px;
+	font-weight:800;
+	text-transform: uppercase;
+}
+
+.sidebar .widget p {
+	font-size: 14px;
+}
+
+.sidebar .widget p:last-child {
+	margin:0;
+}
+
+.footer {
+    width :100%;
+    background:#C3C3C3;
+    text-align: center;
+}
+.blog {
+	float:left;
+}
+
+.conteudo {
+	width:680px;
+	padding:115px;
+    margin:25px auto;
+    margin-left : 55px;
+	background: rgb(230, 235, 183);
+	border:2px solid #dedede;
+	
+}
+
+.conteudo img {
+	min-width: 750px;
+	margin:0 0 25px -25px;
+    max-width: 750px;
+    
+}
+
+.conteudo h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: Georgia;
+}
+
+.conteudo p:last-child {
+	margin: 0;
+}
+
+.conteudo .continue-lendo {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
+
+.conteudo .continue-lendo:hover {
+	margin-left:10px;
+}
+
+.post-info {
+	float: right;
+	font-size: 12px;
+	margin: -10px 0 15px;
+	text-transform: uppercase;
+}
+.conteudo2 {
+	width:625px;
+	padding:65px;
+    margin:1px auto;
+    margin-left : 125px;
+	background: rgb(114, 126, 124);
+	
+}
+
+
+}
